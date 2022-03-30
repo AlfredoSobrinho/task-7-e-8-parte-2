@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Task 4 e 5</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="floatingActionButton">Adicionar novo post</string>
+    <string name="textview">TextView</string>
+    <string name="categoria">Categoria</string>
+    <string name="autor">Autor</string>
+    <string name="titulo">Titulo</string>
+    <string name="descricao">Descrição</string>
+    <string name="data">Data</string>
+    <string name="hora">Hora</string>
+    <string name="imagem1">imagem1</string>
+    <string name="Postar">Postar</string>
+</resources>
