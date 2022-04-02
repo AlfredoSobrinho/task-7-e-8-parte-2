@@ -13,6 +13,18 @@
         <action
             android:id="@+id/action_listFragment_to_segundoFragment"
             app:destination="@id/segundoFragment" />
+        <action
+            android:id="@+id/action_listFragment_to_perfilragment"
+            app:destination="@id/perfilragment" />
+        <action
+            android:id="@+id/action_listFragment_to_catalogoFragment"
+            app:destination="@id/catalogoFragment" />
+        <action
+            android:id="@+id/action_listFragment_to_doarFragment"
+            app:destination="@id/doarFragment" />
+        <action
+            android:id="@+id/action_listFragment_to_editDadosFragment"
+            app:destination="@id/editDadosFragment" />
     </fragment>
     <fragment
         android:id="@+id/segundoFragment"
@@ -22,5 +34,79 @@
         <action
             android:id="@+id/action_segundoFragment_to_listFragment"
             app:destination="@id/listFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bemvindoFragment"
+        android:name="com.generation.task4e5.BemvindoFragment"
+        android:label="fragment_bemvindo"
+        tools:layout="@layout/fragment_bemvindo" >
+        <action
+            android:id="@+id/action_bemvindoFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.generation.task4e5.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_IAFragment"
+            app:destination="@id/IAFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/IAFragment"
+        android:name="com.generation.task4e5.IAFragment"
+        android:label="fragment_i_a"
+        tools:layout="@layout/fragment_i_a" >
+        <action
+            android:id="@+id/action_IAFragment_to_cadastroFragment"
+            app:destination="@id/cadastroFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cadastroFragment"
+        android:name="com.generation.task4e5.CadastroFragment"
+        android:label="fragment_cadastro"
+        tools:layout="@layout/fragment_cadastro" >
+        <action
+            android:id="@+id/action_cadastroFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/perfilragment"
+        android:name="com.generation.task4e5.Perfilragment"
+        android:label="fragment_perfilragment"
+        tools:layout="@layout/fragment_perfilragment" />
+    <fragment
+        android:id="@+id/catalogoFragment"
+        android:name="com.generation.task4e5.CatalogoFragment"
+        android:label="fragment_catalogo"
+        tools:layout="@layout/fragment_catalogo" >
+        <action
+            android:id="@+id/action_catalogoFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/doarFragment"
+        android:name="com.generation.task4e5.DoarFragment"
+        android:label="fragment_doar"
+        tools:layout="@layout/fragment_doar" >
+        <action
+            android:id="@+id/action_doarFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editDadosFragment"
+        android:name="com.generation.task4e5.editDadosFragment"
+        android:label="fragment_edit_dados"
+        tools:layout="@layout/fragment_edit_dados" >
+        <action
+            android:id="@+id/action_editDadosFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+        <action
+            android:id="@+id/action_editDadosFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
     </fragment>
 </navigation>
